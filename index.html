@@ -1,35 +1,84 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт скоро будет готов</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2em;
-            max-width: 600px;
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playdrom</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0d0e11;
+      font-family: 'Press Start 2P', cursive;
+      color: #e6e6e6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    header {
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 25px;
+      font-size: 0.85rem;
+      opacity: 0.75;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #c4c4c4;
+      transition: 0.2s;
+    }
+
+    header a:hover {
+      color: white;
+    }
+
+    h1 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 2.8rem;
+      font-weight: normal;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      color: #555;
+      font-size: 0.8rem;
+    }
+  
+
+
+
+
+  50% { opacity: 1; bottom: 60px; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+</style>
 </head>
 <body>
-    <h1>🚧 Скоро здесь будет сайт</h1>
-    <p>Мы работаем над созданием чего-то удивительного. Возвращайтесь позже!</p>
+
+<header>
+  <a href="#">Ozon</a>
+  <a href="#">WB</a>
+  <a href="#">Яндекс Маркет</a>
+  <a href="#">Контакты</a>
+</header>
+
+<h1>Playdrom</h1>
+
+<footer>© 2025 Playdrom</footer>
+
 </body>
 </html>
+
